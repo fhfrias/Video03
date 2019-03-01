@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00fff7"
+    tools:context=".Video03">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRABANDO VIDEO VIDEO"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <TextView
+        android:id="@+id/txt_ficherovideo"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FICHERO DESTINO: MIVIDEO.MP4"
+        android:textStyle="bold"
+        android:textColor="#ff00"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <SurfaceView
+        android:id="@+id/videoView"
+        android:layout_gravity="center"
+        android:layout_width="640px"
+        android:layout_height="520px"
+        android:layout_margin="8dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_grabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRABAR"
+            />
+
+        <Button
+            android:id="@+id/btn_parar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARAR"
+            />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"/>
+
+
+</LinearLayout>
